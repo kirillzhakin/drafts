@@ -1,12 +1,14 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./**/*.html"],
+  content: ["./public/**/*.html"],
   theme: {
     extend: {
       colors: {
         "my-grey": "#F5F5F5",
         "my-dark": "#131111",
         "my-grey-1": "#7D7D7D",
+        "my-orange": "#F64F00",
+        "my-blue": "#0178F3"
       },
 
       fontFamily: {
@@ -18,6 +20,7 @@ module.exports = {
         4: "repeat(4, 26px)",
         5: "repeat(5, auto)",
       },
+    
     },
   },
   plugins: [],
