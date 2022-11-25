@@ -6,7 +6,7 @@
 3. Футер
 4. Скидка за подписку
 
-### Ссылка на сайт: 
+### Ссылка на сайт: https://drafts-seven.vercel.app/
 
 ### Технологии
 ![HTML](https://img.shields.io/badge/HTML-172F45?style=for-the-badge&logo=html5)
