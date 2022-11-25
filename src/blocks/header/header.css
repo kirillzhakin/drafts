@@ -1,0 +1,75 @@
+.header {
+  display: flex;
+  height: 80px;
+  background: #131111;
+  color: #7d7d7d;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.header__container {
+  display: flex;
+  margin: 0 auto;
+  height: 100%;
+  max-width: 1218px;
+}
+
+.header__logo {
+  margin: 25px 40px 25px 0;
+}
+
+.header__lang {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  column-gap: 4px;
+  margin: 29px 175px 29px 0;
+}
+
+.header__ru_active {
+  color: #d8d8d8;
+}
+
+.header__nav {
+  max-width: 551px;
+  margin: 30px 0 28px 0;
+}
+
+.header__list {
+  display: grid;
+  grid-template-columns: repeat(5, auto);
+  column-gap: 24px;
+  white-space: nowrap;
+}
+
+.header__item_active {
+  color: #bcbcbc;
+  font-weight: 600;
+  line-height: 20px;
+}
+
+.header__box {
+  display: grid;
+  grid-template-columns: repeat(4, 26px);
+  column-gap: 16px;
+  height: 26px;
+  margin: 27px 0 27px 103px;
+}
+
+.header__market {
+  display: flex;
+  width: 50px;
+  height: 50px;
+  margin: 13px 0 13px 6px;
+}
+
+@media screen and (max-width: 1919px) {
+  .header__logo {
+    margin-right: 2.08333333vw;
+  }
+  .header__lang {
+    margin-right: 9.11458333vw;
+  }
+  .header__box {
+    margin-left: 5.36458333vw;
+  }
+}

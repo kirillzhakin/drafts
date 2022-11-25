@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Drafts</title>
+    <link rel="stylesheet" href="./pages/index.css" />
+  </head>
+  <body class="body">
+    <div class="page">
+      <header class="header">
+        <div class="header__container">
+          <a href="#"
+            ><img src="./images/logo.svg" alt="Логотип" class="header__logo"
+          /></a>
+          <div class="header__lang">
+            <a href="#" class="header__ru_active">Ru</a>
+            <div>/</div>
+            <a href="#">En</a>
+          </div>
+
+          <nav class="header__nav">
+            <ul class="header__list">
+              <li><a href="#" class="header__item_active">Клюшки</a></li>
+              <li><a href="#">Одежда</a></li>
+              <li><a href="#">Аксесуары</a></li>
+              <li><a href="#">Кастомизация</a></li>
+              <li><a href="#">Отследить заказ</a></li>
+            </ul>
+          </nav>
+
+          <div class="header__box">
+            <button>
+              <img src="./images/icon_1.svg" alt="Поиск" />
+            </button>
+            <a href="#"><img src="./images/icon_2.svg" alt="Телефон" /></a>
+            <a href="#"><img src="./images/icon_3.svg" alt="Иконка" /></a>
+            <a href="#"><img src="./images/icon_4.svg" alt="Пользователь" /></a>
+          </div>
+          <a href="#" class="header__market"
+            ><img src="./images/icon_5.svg" alt="Корзина"
+          /></a>
+        </div>
+      </header>
+
+      <section class="slider">
+        <img src="./images/zaryad.svg" alt="Заряд" class="slider__img" />
+        <div class="skider__gradient-box">
+          <div class="slider__gradient-orange"></div>
+          <div class="slider__gradient-blue"></div>
+        </div>
+        <div id="slider" class="slider__container">
+          <div class="slider__left"></div>
+          <div class="slider__center">
+            <a href="#" class="slider__link">В каталог </a>
+            <button class="slider__button slider__button_transform"></button>
+            <button class="slider__button"></button>
+            <div class="slader__box">
+              <h2 class="slider__title">Константин Константинович</h2>
+              <p class="slider__about">Крутой хоккеист такой-то команды</p>
+              <div class="slider__review-box">
+                <button class="slider__review"></button>
+                <div class="slider__arrow"></div>
+              </div>
+            </div>
+          </div>
+          <div class="slider__right"></div>
+        </div>
+      </section>
+
+      <section class="discount">
+        <div class="discount__container">
+          <div class="discount__box">
+            <div class="discount__gradient-blue"></div>
+            <div class="discount__gradient-orange"></div>
+
+            <img
+              class="discount__img-action"
+              src="../src/images/discount_1.svg"
+              alt="Молния"
+            />
+            <img
+              class="discount__img-sale"
+              src="../src/images/discount_2.svg"
+              alt="Процент"
+            />
+
+            <h1 class="discount__title">Получи</h1>
+
+            <h1 class="discount__title discount__title_left">
+              скидку
+              <span class="discount__title discount__title_white"
+                >500 &#8381;</span
+              >
+            </h1>
+
+            <h1 class="discount__title">за подписку</h1>
+            <p class="discount__text">
+              Никакого спама и рекламы, только полезная информация, скидки и
+              персональные предложения
+            </p>
+
+            <form name="form" class="discount__form" novalidate>
+              <input
+                type="email"
+                name="email"
+                id="email"
+                class="discount__input"
+                placeholder="Ваш Email"
+                required
+              />
+              <button type="submit" name="submit" class="discount__submit">
+                Подписаться
+              </button>
+            </form>
+          </div>
+        </div>
+
+        <figure class="discount__img-box">
+          <img
+            src="../src/images/image32.jpg"
+            alt="Фото"
+            class="discount__img"
+          />
+        </figure>
+      </section>
+
+      <footer class="footer">
+        <div class="footer__box">
+          <a href="#">
+            <img
+              src="./images/zaryad_footer.svg"
+              alt="Логотип"
+              class="footer__logo"
+            />
+          </a>
+          <nav>
+            <ul class="footer__list">
+              <li>
+                <a href="#">
+                  <img src="./images/telegramm.svg" alt="Телеграмм" />
+                </a>
+              </li>
+
+              <li>
+                <a href="#">
+                  <img src="./images/vk.svg" alt="ВК" />
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+
+        <div class="footer__container">
+          <div class="footer__info">
+            <div>
+              <p class="footer__text">Наименование</p>
+              <h3 class="footer__title">ООО «ЗаряД»</h3>
+            </div>
+            <div>
+              <p class="footer__text">Юридический адрес</p>
+              <h3 class="footer__title">
+                Республика Татарстан, г. Набережные Челны, ул. Альметьевский
+                тракт, д. 6а
+              </h3>
+            </div>
+            <div class="footer__info-box">
+              <div>
+                <p class="footer__text">Телефон</p>
+                <a href="tel:+78005119390" class="footer__title"
+                  >+7 (800) 511-93-90</a
+                >
+              </div>
+              <div>
+                <p class="footer__text">Email</p>
+                <a href="info@zaryad-hockey.ru" class="footer__title"
+                  >info@zaryad-hockey.ru</a
+                >
+              </div>
+              <div>
+                <p class="footer__text">ИНН</p>
+                <h3 class="footer__title">1646040440</h3>
+              </div>
+              <div>
+                <p class="footer__text">ОГРН</p>
+                <h3 class="footer__title">1151674001632</h3>
+              </div>
+            </div>
+            <div>
+              <p class="footer__copy">&copy; 2017-2022 Заряд</p>
+              <a href="#" class="footer__polit">
+                Политика конфиденциальности
+              </a>
+            </div>
+          </div>
+
+          <div class="footer__navigate">
+            <nav>
+              <h3 class="footer__head">О бренде</h3>
+              <ul class="footer__head-list">
+                <li>
+                  <a href="#">История бренда</a>
+                </li>
+                <li>
+                  <a href="#">Технологии производства</a>
+                </li>
+                <li>
+                  <a href="#">Производство</a>
+                </li>
+
+                <li>
+                  <a href="#">Контакты магазинов</a>
+                </li>
+              </ul>
+            </nav>
+            <nav>
+              <h3 class="footer__head">Партнерам</h3>
+              <ul class="footer__head-list">
+                <li>
+                  <a href="#">Как стать партнером</a>
+                </li>
+                <li>
+                  <a href="#">Как мы работаем</a>
+                </li>
+                <li>
+                  <a href="#">Информация о выборе контрагентов</a>
+                </li>
+              </ul>
+            </nav>
+            <nav>
+              <h3 class="footer__head">Покупателям</h3>
+              <ul class="footer__head-list">
+                <li>
+                  <a href="#">Доставка и оплата</a>
+                </li>
+                <li>
+                  <a href="#">Обмен и возврат</a>
+                </li>
+                <li>
+                  <a href="#">Гарантия</a>
+                </li>
+              </ul>
+            </nav>
+            <nav>
+              <ul class="footer__head-list footer__head-list_top">
+                <li>
+                  <a href="#">Бонусная программа</a>
+                </li>
+                <li>
+                  <a href="#">Таблица размеров</a>
+                </li>
+                <li>
+                  <a href="#">Подарочный сертификат</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+          <a href="#" class="footer__link"
+            ><span class="footer__link-text">Связаться с нами</span></a
+          >
+          <a href="#" class="footer__logo-imperium">
+            <img src="./images/imperium.svg" alt="Логотип Империум" />
+          </a>
+        </div>
+      </footer>
+    </div>
+
+    <script src="./index.js"></script>
+  </body>
+</html>

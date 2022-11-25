@@ -1,0 +1,147 @@
+.discount {
+  position: relative;
+  display: flex;
+  height: 949px;
+  background: #131111;
+  overflow: hidden;
+}
+
+.discount__img-box {
+  position: absolute;
+  top: 70px;
+  right: -99px;
+  border: 1px solid #333333;
+  width: 736px;
+  height: 736px;
+  border-radius: 1000px;
+  padding: 41px;
+  overflow: hidden;
+  z-index: 0;
+}
+
+.discount__img {
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+  object-position: 90%;
+}
+
+.discount__container {
+  width: 1220px;
+  height: 663px;
+  margin: 130px auto 156px auto;
+  z-index: 1;
+}
+
+.discount__box {
+  position: relative;
+
+  width: 662px;
+}
+
+.discount__title {
+  display: flex;
+  width: fit-content;
+  font-weight: 700;
+  font-size: 90px;
+  line-height: 104px;
+  -webkit-text-stroke: 1px #bcbcbc;
+  -webkit-text-fill-color: transparent;
+}
+.discount__title_left {
+  margin: 0 0 0 auto;
+}
+.discount__title_white {
+  -webkit-text-stroke: 0;
+  -webkit-text-fill-color: #f5f5f5;
+  margin-left: 19px;
+}
+.discount__text {
+  width: 450px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  color: #bcbcbc;
+  margin-top: 40px;
+}
+
+.discount__gradient-blue {
+  position: absolute;
+  top: 2px;
+  left: 312px;
+  width: 105px;
+  height: 105px;
+  background: radial-gradient(
+    50% 50% at 50% 50%,
+    #0178f3 0%,
+    rgba(1, 120, 243, 0) 100%
+  );
+  filter: blur(32px);
+}
+.discount__img-action {
+  position: absolute;
+  top: 25.13px;
+  left: 344.01px;
+}
+
+.discount__gradient-orange {
+  position: absolute;
+  top: 115px;
+  left: -17px;
+  width: 90px;
+  height: 90px;
+  background: radial-gradient(
+    50% 50% at 50% 50%,
+    #f64f00 0%,
+    rgba(246, 79, 0, 0) 100%
+  );
+  filter: blur(32px);
+}
+.discount__img-sale {
+  position: absolute;
+  top: 134px;
+  left: 0;
+}
+
+.discount__form {
+  margin-top: 32px;
+}
+
+.discount__input {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  width: 445px;
+  height: 32px;
+  outline: 0;
+  background: transparent;
+  color: #7d7d7d;
+  border-bottom: 1px solid #7d7d7d;
+  transition: all 0s, ease, 0.4s;
+}
+
+.discount__input:hover {
+  border-bottom: 1px solid #925c5c;
+}
+
+.discount__input:focus {
+  border-bottom: 1px solid #925c5c;
+  color: #bcbcbc;
+}
+.discount__submit {
+  margin: 56px auto 0 0;
+  width: 150px;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #ffffff;
+  border-radius: 1000px;
+  transition: all 0.5s ease-out;
+
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  color: #333333;
+}
